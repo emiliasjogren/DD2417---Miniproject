@@ -32,7 +32,7 @@ To run the code:
       ```
     - _RNN_: Train.ipynb file, should be able to just run to achieve results presented 
     - _Transformer_: TrainTransformer.ipynb file, should be able to just run to achieve results presented 
-- **GUI**: run the FinalGUI.py file in your command window
+- **GUI**: run the FinalGUI.py file in your command window, RNN model found in Training -> RNN -> Models
 
 ## Results
 *Keystroke = Percentage of saved keystrokes
