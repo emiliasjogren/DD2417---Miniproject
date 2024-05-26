@@ -32,7 +32,8 @@ To run the code:
       ```
     - _RNN_: Train.ipynb file, should be able to just run to achieve results presented 
     - _Transformer_: TrainTransformer.ipynb file, should be able to just run to achieve results presented 
-- **GUI**: run the FinalGUI.py file in your command window, RNN model found in Training -> RNN -> Models
+- **GUI**: run the FinalGUI.py file in your command window
+    - RNN model found in Training -> RNN -> Models
 
 ## Results
 *Keystroke = Percentage of saved keystrokes
@@ -45,10 +46,10 @@ Here generating a list of 100 most probable words, displaying 5 and updating acc
 |             | **Trigram model** |                | **RNN**        |                | **Transformer** |                |
 |-------------|:-----------------:|:--------------:|:--------------:|:--------------:|:---------------:|:--------------:|
 |             |    *Keystroke*    |    *Word*      |    *Keystroke* |    *Word*      |    *Keystroke* |    *Word*      |
-| 5 predictions |      22.45%       |     31.99%     |      28.40%    |     41.95%     |      28.97%     |     42.87%     |
-| 20 predictions |     34.15%        |     52.26%     |      40.51%    |     59.23%     |      41.09%     |     60.94%     |
-| 50 predictions |     41.09%        |     62.47%     |      48.91%    |     69.67%     |      49.71%     |     71.47%     |
-| 100 predictions|     47.84%        |     71.67%     |      54.61%    |     76.44%     |      55.65%     |     78.09%     |
+| 5 predictions |      22.45%       |     31.99%     |      28.81%    |     42.47%     |      28.97%     |     42.87%     |
+| 20 predictions |     34.15%        |     52.26%     |      40.83%    |     59.67%     |      41.09%     |     60.94%     |
+| 50 predictions |     41.09%        |     62.47%     |      49.32%    |     70.12%     |      49.71%     |     71.47%     |
+| 100 predictions|     47.84%        |     71.67%     |      55.16%    |     76.95%     |      55.65%     |     78.09%     |
 
 
 
