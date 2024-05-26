@@ -46,7 +46,7 @@ class PredictorApp:
         self.model_name = model_name
         #if model_name == "Trigram":
         self.trigram_predictor = tripred.TrigramPredictor()
-        self.trigram_predictor.read_model("harry_potter_1_model.txt")
+        self.trigram_predictor.read_model("train_file_model.txt")
         if model_name == "Transformer":
             self.TransformerClass = LoadTransformer.LoadTransformerModel("model_Transformer.pth")
         elif model_name == "RNN":
@@ -197,4 +197,3 @@ if __name__ == "__main__":
     app.run()
 
 
-#TODO: snygga till det, lägg till en argument till klassen där man kan välja modell (eller dylikt)
