@@ -16,7 +16,7 @@ this project is to:
 The repository contains the following components:
 - **Data**: The data files the models were trained on and how they were created
 - **Training**: Code for training the different models:
-    - _Trigram_
+    - _Trigram_: code to train, code to generate prediction, code to evaluate. 
     - _RNN_: Code to train and evaluate, as well as best model and evaluation metrics plots
     - _Transformer_
 - **GUI**: Source code for the simple graphical user interface (GUI) to showcase the word prediction functionality.
@@ -26,10 +26,13 @@ The repository contains the following components:
 To run the code:
 - **Data**: Download data to your own repo
 - **Training**: 
-    - _Trigram_
+    - _Trigram_: in command window, type:
+      ```console
+      python TrigramTrainer.py -f data/train_file.txt -d train_file_model.txt
+      ```
     - _RNN_: Train.ipynb file, should be able to just run to achieve results presented 
     - _Transformer_: TrainTransformer.ipynb file, should be able to just run to achieve results presented 
-- **GUI**: HOW TO RUN GUI
+- **GUI**: run the FinalGUI.py file in your command window
 
 ## Results
 *Keystroke = Percentage of saved keystrokes
