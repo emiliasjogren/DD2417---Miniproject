@@ -28,7 +28,7 @@ To run the code:
 - **Training**: 
     - _Trigram_
     - _RNN_: Train.ipynb file, should be able to just run to achieve results presented 
-    - _Transformer_
+    - _Transformer_: TrainTransformer.ipynb file, should be able to just run to achieve results presented 
 - **GUI**: HOW TO RUN GUI
 
 ## Results
