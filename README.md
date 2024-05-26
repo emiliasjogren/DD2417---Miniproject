@@ -33,7 +33,7 @@ To run the code:
     - _RNN_: Train.ipynb file, should be able to just run to achieve results presented 
     - _Transformer_: TrainTransformer.ipynb file, should be able to just run to achieve results presented 
 - **GUI**: run the FinalGUI.py file in your command window
-    - Trigram model found in Models -> 'harry_potter_1_model.txt'
+    - Trigram model found in Models -> 'train_file_model.txt'
     - RNN model found in Models -> 'model_RNN.pth'
     - Transformer model found in Models -> 'model_transformer.pth'
 
