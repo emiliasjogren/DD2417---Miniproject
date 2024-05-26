@@ -33,7 +33,9 @@ To run the code:
     - _RNN_: Train.ipynb file, should be able to just run to achieve results presented 
     - _Transformer_: TrainTransformer.ipynb file, should be able to just run to achieve results presented 
 - **GUI**: run the FinalGUI.py file in your command window
-    - RNN model found in Training -> RNN -> Models
+    - Trigram model found in Models -> 'harry_potter_1_model.txt'
+    - RNN model found in Models -> 'model_RNN.pth'
+    - Transformer model found in Models -> 'model_transformer.pth'
 
 ## Results
 *Keystroke = Percentage of saved keystrokes
